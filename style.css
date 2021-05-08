@@ -1,0 +1,114 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:  Helvetica, sans-serif;
+}
+/* all Pages Section size*/
+section{
+	min-height: 300px;
+}
+/*Navigation section*/
+
+#Glogo{
+	width: 135px;
+	height: auto;
+}
+
+/* change the link color and add padding for height */
+.mainNav .navbar-nav .nav-link {
+    color: black;
+    padding: 6px 10px;
+}
+
+/* change the color of active or hovered links */
+.mainNav .nav-item.active .nav-link,
+.mainNav .nav-item:hover .nav-link {
+    color: #ffffff;
+    background-color: #085499; /* add background-color to active links */
+    border-radius: 10px;
+}
+
+/*Navigation Section*/
+
+
+/*jumbotron section*/
+.jumbotron{
+	background-image: url(img/jumbotron1.jpg);
+	background-size: cover;
+	color: white;
+	margin-top: 50px;	
+}
+
+.display-4{
+ 	font-weight: bold
+ }
+/* end of jumbotron section*/
+
+/*Hobbies Section*/
+.hobby{
+	background-color: #D9E9F4;
+	padding-top: 70px;
+	margin-top: -40px;
+
+}
+
+
+
+#hobbyimg{
+	border: 2px solid #FFFFFF;
+	border-radius: 4px;
+	padding: 5px;
+	width:   300px;
+	height: auto;
+}
+
+/*border frame for video*/
+iframe{
+	border: 1px solid #FFFFFF;
+	border-radius: 4px;
+	padding: 10px;
+	width:  560px;
+	height: 315px;
+}
+/*end  of hobbies section*/
+
+/*Screenshot Section*/
+.screenshots{
+   background-color: #D9E9F4;
+   padding-top: 50px;
+   margin-top: -30px;
+   height: 700px;
+}
+
+.carousel{
+	border: 1px solid #FFFFFF;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.carousel .carousel-item {
+  height: 500px;
+
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+/*end of Screenshots section*/
+
+/*join me*/
+.joinme{
+	background-image: url(img/hobbybg.jpg);
+	background-size: cover;
+}
+
+/*footer*/
+.footer{
+	background-color: #D9E9F4;
+}
